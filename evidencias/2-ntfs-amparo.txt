@@ -1,0 +1,5 @@
+C:\Amparo AMPARO\GG-Amparo-Admins:(OI)(CI)(M)
+          NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+          BUILTIN\Administrators:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files

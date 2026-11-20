@@ -1,0 +1,7 @@
+C:\Amparo\api\App_Data IIS APPPOOL\AmparoApiPool:(OI)(CI)(M)
+                       IIS APPPOOL\AmparoApiPool:(I)(OI)(CI)(RX)
+                       AMPARO\GG-Amparo-Admins:(I)(OI)(CI)(M)
+                       NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                       BUILTIN\Administrators:(I)(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files

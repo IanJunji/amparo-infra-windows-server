@@ -1,0 +1,13 @@
+Server:  UnKnown
+Address:  ::1
+
+Name:    api.amparo.local
+Address:  192.168.56.10
+
+
+Server:  UnKnown
+Address:  ::1
+
+Name:    SRV-AMPARO01.amparo.local
+Address:  192.168.56.10
+
