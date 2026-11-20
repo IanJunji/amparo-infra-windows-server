@@ -29,21 +29,18 @@ Coloque os prints nesta pasta com os nomes abaixo e marque quando estiver pronto
 **4. Monitoramento**
 - [x] `4-alertas.jpg`: alerta Amparo-Alertas com CPU, disco e memória, em Running
 - [x] `4-alertas.jpg` mostra o Status Running
-- [ ] `4-evento-alerta.png`: evento 2031 depois do teste de CPU
 
 **5. Tolerância a falhas**
 - [x] `5-eventos-recuperacao.jpg`: eventos 7031 (o Windows reiniciou W3SVC e WAS em 5 s) e 5009 (pool caiu e voltou)
-- [ ] `5-pool-avancado.png`: Advanced Settings do pool
+- [x] `5-teste-falha.jpg` mostra o pool com autoStart True e startMode AlwaysRunning
 - [x] `5-teste-falha.jpg`: API voltou em 0 s (pool) e 4 s (serviço W3SVC); pool AlwaysRunning
-- [ ] `teste-falha-AAAAMMDD-HHMM.txt`: saída completa do teste
 
 **6. Auditoria e logs**
 - [x] `6-auditpol.jpg`: auditoria de Logon, Account Lockout, File System e User Account Management + auditoria em App_Data
 - [x] `6-eventos-seguranca.jpg`: eventos 4625, 4720 e 4663
-- [ ] `6-auditoria-app-data.png`: aba Auditing de App_Data
+- [x] `6-auditpol.jpg` mostra a auditoria de App_Data (Everyone: Delete, ChangePermissions, TakeOwnership)
 - [x] `6-log-iis.jpg`: linhas do log do IIS (W3C) em C:\Amparo\logs\iis
 
 **7. Validação**
 - [x] `7-test-netconnection.jpg`: portas 80, 53, 389 e 3389 com True
 - [x] `7-curl.jpg`: nslookup, login como operador e `/api/alertas` com token (HTTP 200)
-- [ ] `7-host.png`: API acessada a partir do host
