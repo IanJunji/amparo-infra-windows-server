@@ -1,0 +1,31 @@
+Teste feito no HOST (computador do Ian) em 19/11/2026 23:13, contra a VM SRV-AMPARO01
+
+Name           State Uptime
+----           ----- ------
+SRV-AMPARO01 Running 00:12:35.0490000
+
+
+ComputerName  RemotePort TcpTestSucceeded
+------------  ---------- ----------------
+192.168.56.10         80             True
+ComputerName  RemotePort TcpTestSucceeded
+------------  ---------- ----------------
+192.168.56.10        443             True
+ComputerName  RemotePort TcpTestSucceeded
+------------  ---------- ----------------
+192.168.56.10         53             True
+ComputerName  RemotePort TcpTestSucceeded
+------------  ---------- ----------------
+192.168.56.10        389             True
+ComputerName  RemotePort TcpTestSucceeded
+------------  ---------- ----------------
+192.168.56.10       3389            False
+
+Resolve-DnsName api.amparo.local -Server 192.168.56.10:
+
+
+curl.exe -i http://api.amparo.local/api/alertas (sem login):
+
+
+Login como  (): OK. Token nao exibido.
+GET /api/alertas com token: HTTP 

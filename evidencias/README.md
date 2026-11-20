@@ -27,23 +27,23 @@ Coloque os prints nesta pasta com os nomes abaixo e marque quando estiver pronto
 - [x] `3-api-navegador.png`: `/api/alertas` aberto no navegador (versão antes do login; com login a resposta é 401)
 
 **4. Monitoramento**
-- [ ] `4-alertas.png`: propriedades do alerta com CPU, disco e memória
-- [ ] `4-running.png`: Amparo-Alertas em Running
+- [x] `4-alertas.jpg`: alerta Amparo-Alertas com CPU, disco e memória, em Running
+- [x] `4-alertas.jpg` mostra o Status Running
 - [ ] `4-evento-alerta.png`: evento 2031 depois do teste de CPU
 
 **5. Tolerância a falhas**
-- [ ] `5-recovery.png`: aba Recovery do serviço ou `sc.exe qfailure W3SVC`
+- [x] `5-eventos-recuperacao.jpg`: eventos 7031 (o Windows reiniciou W3SVC e WAS em 5 s) e 5009 (pool caiu e voltou)
 - [ ] `5-pool-avancado.png`: Advanced Settings do pool
-- [ ] `5-teste-falha.png`: tela do teste com os segundos até voltar
+- [x] `5-teste-falha.jpg`: API voltou em 0 s (pool) e 4 s (serviço W3SVC); pool AlwaysRunning
 - [ ] `teste-falha-AAAAMMDD-HHMM.txt`: saída completa do teste
 
 **6. Auditoria e logs**
-- [ ] `6-auditpol.png`: `auditpol /get /category:*`
-- [ ] `6-eventos-seguranca.png`: eventos 4625, 4720 e 4663
+- [x] `6-auditpol.jpg`: auditoria de Logon, Account Lockout, File System e User Account Management + auditoria em App_Data
+- [x] `6-eventos-seguranca.jpg`: eventos 4625, 4720 e 4663
 - [ ] `6-auditoria-app-data.png`: aba Auditing de App_Data
-- [ ] `6-log-iis.png`: linhas do log do IIS com 200 e 404
+- [x] `6-log-iis.jpg`: linhas do log do IIS (W3C) em C:\Amparo\logs\iis
 
 **7. Validação**
-- [ ] `7-test-netconnection.png`: portas 80, 53, 389 e 3389 com True
-- [ ] `7-curl.png`: `curl.exe -i` sem login (401) e o login + `/api/alertas` com token (200)
+- [x] `7-test-netconnection.jpg`: portas 80, 53, 389 e 3389 com True
+- [x] `7-curl.jpg`: nslookup, login como operador e `/api/alertas` com token (HTTP 200)
 - [ ] `7-host.png`: API acessada a partir do host
