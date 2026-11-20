@@ -64,5 +64,5 @@ Os scripts estão salvos em UTF-8 com BOM, para o PowerShell da VM mostrar os ac
 ## Evidências e vídeo
 
 - Lista de prints: [`evidencias/README.md`](evidencias/README.md).
-- Roteiro do vídeo: [`roteiro-video.md`](roteiro-video.md). Link do vídeo: LINK_DO_VIDEO (preencher).
+- Roteiro do vídeo: [`roteiro-video.md`](roteiro-video.md). Vídeo (3 min, com legendas): https://github.com/IanJunji/amparo-infra-windows-server/blob/main/video/amparo-infra-windows-server.mp4
 - Requisitos da disciplina: [`REQUISITOS.md`](REQUISITOS.md).
